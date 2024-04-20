@@ -41,9 +41,8 @@ li a.active{
   border-radius: 9px;
   opacity: 0.5;
   padding: 10px;
-
-  border-bottom-left-radius: 20px;
-}
+transition: .2s ease;
+  }
 
 .tooltip2:hover .tooltip21{
   visibility: visible;
@@ -56,8 +55,8 @@ li a.active{
   position: absolute;
   top: 100%;
   left: 0;
-  border-bottom-left-radius: 20px;
-}
+  transition: .2s ease;
+  }
 .tooltip3:hover .tooltip31{
   visibility: visible;
   background-color: black;
@@ -69,8 +68,8 @@ li a.active{
   position: absolute;
   top: 100%;
   left: 0;
-  border-bottom-left-radius: 20px;
-}
+  transition: .2s ease;
+  }
 .tooltip4:hover .tooltip41{
   visibility: visible;
   background-color: black;
@@ -81,6 +80,6 @@ li a.active{
   padding: 10px;
   position: absolute;
   top: 100%;
+  transition: .2s ease;
   left: 0;
-  border-bottom-left-radius: 20px;
-}
+  }
