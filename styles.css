@@ -14,7 +14,7 @@ ul{
 }
 
 li a{
-  padding: 20px;
+  padding: 10px;
   color: black;
   display: block;
   text-decoration: none;
@@ -23,4 +23,64 @@ li a{
 li a.active{
   color: white;
   background-color: green;
+}
+
+/* styles for hint when nav is hovered*/
+.tooltip1, .tooltip2, .tooltip3, .tooltip4{
+  position: relative;
+}
+.tooltip11, .tooltip21, .tooltip31, .tooltip41{
+  visibility: hidden;
+}
+
+.tooltip1:hover .tooltip11{
+  visibility: visible;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+  opacity: 0.5;
+  padding: 10px;
+
+  border-bottom-left-radius: 20px;
+}
+
+.tooltip2:hover .tooltip21{
+  visibility: visible;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+  opacity: 0.5;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-bottom-left-radius: 20px;
+}
+.tooltip3:hover .tooltip31{
+  visibility: visible;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+  opacity: 0.5;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-bottom-left-radius: 20px;
+}
+.tooltip4:hover .tooltip41{
+  visibility: visible;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 9px;
+  opacity: 0.5;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-bottom-left-radius: 20px;
 }
